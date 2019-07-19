@@ -10,7 +10,7 @@ public class Other extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_other);
+        setContentView(R.layout.birds);
     }
     public void back(View v){
         Intent i = new Intent(this, HomePage.class);
