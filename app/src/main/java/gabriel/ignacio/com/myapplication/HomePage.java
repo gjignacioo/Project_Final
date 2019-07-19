@@ -16,7 +16,8 @@ public class HomePage extends AppCompatActivity {
         button = findViewById(R.id.button);
     }
     public void dogs(View v){
-        Intent i = new Intent(this, Doggs.class);
+        Intent i;
+        i = new Intent(this, Doggs.class);
         startActivity(i);
     }
     public void cats(View v){
