@@ -17,11 +17,11 @@ public class HomePage extends AppCompatActivity {
     }
     public void dogs(View v){
         Intent i;
-        i = new Intent(this, Doggs.class);
+        i = new Intent(this, Dogs.class);
         startActivity(i);
     }
     public void cats(View v){
-        Intent i = new Intent(this, Catts.class);
+        Intent i = new Intent(this, Cats.class);
         startActivity(i);
     }
     public void other(View v){

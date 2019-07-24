@@ -19,6 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Other" />
+        <activity android:name=".Cats" />
+        <activity android:name=".Dogs" />
         <activity android:name=".Donate" />
         <activity android:name=".about" />
         <activity android:name=".Maxx" />

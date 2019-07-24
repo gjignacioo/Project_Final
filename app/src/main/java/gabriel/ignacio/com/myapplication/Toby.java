@@ -21,7 +21,7 @@ public class Toby extends AppCompatActivity {
         startActivity(i);
     }
     public void prev(View v){
-        Intent i = new Intent(this, Catts.class);
+        Intent i = new Intent(this, Cats.class);
         startActivity(i);
     }
 }

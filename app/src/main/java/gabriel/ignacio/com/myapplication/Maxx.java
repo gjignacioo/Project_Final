@@ -21,7 +21,7 @@ public class Maxx extends AppCompatActivity {
         startActivity(i);
     }
     public void prev(View v){
-        Intent i = new Intent(this, Doggs.class);
+        Intent i = new Intent(this, Dogs.class);
         startActivity(i);
     }
 }
